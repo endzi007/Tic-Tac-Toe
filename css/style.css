@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 1.3em;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/14/bf/b7/14bfb731b9dd3bae441cfcd22e4e2f61.jpg");
+    background-size: cover;
+}
+canvas {
+  background-image: url("http://react-tictactoe.stefanwille.com/images/grid.png");
+  background-size: 100%;
+  margin-left: 20px;
+}
+.selectMode {
+  padding: 20px;
+  display: block; 
+  width: 320px;
+  margin: 0 auto;
+  text-align: center; 
+}
+.option{
+  display: inline-block; 
+  border: 1px solid black;
+  padding: 3px 15px;
+  border-radius: 8px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.option:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.active {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#note{
+  opacity: 0;
+  color: red;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+#displayResult{
+  opacity: 0;
+  color: red;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+#playAgain {
+  color: black;
+}
+#playAgain:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#gameSetup {
+  opacity: 0;
+  width: 470px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 80px;
+  border-radius: 20px;
+  transform: translate(-50%);
+  background-color: white;
+  box-shadow: 0 0px 5px black;
+}
+#gameDiv{
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  transform: translate(-50%);
+  text-align: center;
+}
+#resetAll:hover {
+  color: black;
+  cursor: pointer;
+  background-color: gray;
+}
+#resetAll {
+  color: red;
+  font-weight: bold;
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px; 
+}

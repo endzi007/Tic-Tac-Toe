@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>TicTacToe with Minimax algorithm for FCC</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+      <div id="gameSetup" class="overlayClass">
+      <div class="selectMode" id="selectType">
+        <h3>Select Mode: </h3>
+        <div id="human" class="option type">vs Human</div>
+        <div id="comp" class="option type">vs Computer</div>
+      </div>
+      <div class="selectMode" id="selectPlayer">
+        <h3>Select Player: </h3>
+        <div id="x" class="option player">X</div>
+        <div id="o" class="option player">O</div>
+      </div>
+    </div> 
+
+      <div id="gameDiv" class="overlayClass">
+        <div id="note" class="selectMode"> Some text </div>
+        <canvas class ="" id="game" width="300px" height ="300px" ></canvas>
+        <div id="displayResult" class="selectMode"><span class="spanResult"></span><span id="playAgain">Play Again</span></div>
+        <div class="selectMode"><span id="resetAll">Reset all. Setup Game.</span></div>
+      </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.10.3/paper-full.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
